@@ -77,7 +77,7 @@ export default function AcceptedPayments() {
     <section className="border-b border-line bg-cream py-14 md:py-20">
       <div className="container px-5 sm:px-6 md:px-0">
         <Reveal>
-          <div className="text-center">
+          <div>
             <span
               className="eyebrow"
               style={{ color: "oklab(0.5 0.118727 0.0741887 / 0.8)" }}
@@ -85,14 +85,14 @@ export default function AcceptedPayments() {
               FLEXIBLE PAYMENT
             </span>
 
-            <h2 className="mt-3 text-3xl sm:text-4xl">
+            <h2 className="mt-3 max-w-xl text-3xl sm:text-4xl">
               We accept{" "}
               <span style={{ color: "oklab(0.5 0.118727 0.0741887 / 0.8)" }}>
                 credit cards
               </span>
             </h2>
 
-            <p className="mx-auto mt-4 max-w-lg text-[15px] leading-relaxed text-muted font-sans normal-case">
+            <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-muted font-sans normal-case">
               Pay for your flooring project the way that works best for you — we
               proudly accept all major credit cards.
             </p>

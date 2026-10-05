@@ -4,6 +4,7 @@ import StatsMarquee from "@/components/StatsMarquee";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import FeaturedWork from "@/components/FeaturedWork";
 import ProcessSteps from "@/components/ProcessSteps";
+import AcceptedPayments from "@/components/AcceptedPayments";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import CTABanner from "@/components/CTABanner";
@@ -20,6 +21,7 @@ export default function Home() {
         <WhyChooseUs />
         <FeaturedWork />
         <ProcessSteps />
+        <AcceptedPayments />
         <Testimonials />
         <FAQ />
         <CTABanner />
